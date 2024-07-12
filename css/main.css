@@ -180,6 +180,19 @@ h1, .name{
     padding-right: 10px;
 }
 
+footer{
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 50px;
+    text-align: center;
+    font-size: 5vmin;
+    margin-top: 20px;
+}
+
+footer p{
+    font-size: 5vmin;
+}
+
 @media(min-width:900px){
     .row{
         flex-direction: row;
