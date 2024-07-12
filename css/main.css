@@ -121,16 +121,62 @@ h1, .name{
     line-height: 1.6;
 }
 
+.row-2, .row-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.skills-2{
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.row-3{
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.row-3 h5{
+    font-size: 5vmin;
+}
+
+.row-3 i{
+    font-size: 3em;
+}
+
+.row-3 a{
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+.row-3 a:hover, .row-3:focus{
+    background-color: transparent;
+    border: 4px solid var(--white);
+    color: var(--white);
+}
+
 
 
 @media(min-width:900px){
     .row{
         flex-direction: row;
+        align-items: start;
     }
 
     .col{
         flex-basis: 50%;
         margin-top: 20px;
+    }
+
+    .row-2{
+        flex-direction: row;
     }
 }
 
