@@ -54,6 +54,7 @@ nav{
 
 nav .fa{
     display: none;
+    cursor: pointer;
 }
 
 .header{
