@@ -162,7 +162,23 @@ h1, .name{
     color: var(--white);
 }
 
+.contact-me{
+    font-size: 4vmin;
+    text-align: center;
+    padding-top: 50px;
+}
 
+.contact p a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.contact p a i{
+    font-size: 3em;
+    padding-right: 10px;
+}
 
 @media(min-width:900px){
     .row{
