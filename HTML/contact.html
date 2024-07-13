@@ -23,7 +23,7 @@
     <title>ohiomatabn.com | contact</title>
   </head>
 
-  <section class="header">
+  <div class="header">
     <nav>
       <a href="../index.html" class="logo">Ohiomata BN</a>
       <div class="nav-links" id="navLinks">
@@ -38,12 +38,12 @@
       </div>
       <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
-  </section>
+  </div>
 
-  <!--------contact form-------->
-  <section class="contact">
+  <!--contact form-->
+  <div class="contact">
     <div class="container">
-      <form action="">
+      <form name="contact" data-netlify="true">
         <div class="name">
           <label for="name">Name:</label><br />
           <input
@@ -74,9 +74,9 @@
         </div>
       </form>
     </div>
-  </section>
+  </div>
 
-  <!-----contact section----->
+  <!--contact section-->
   <section class="contact">
     <div class="container">
       <h4 class="contact-me" style="margin: 0">Contact me @</h4>
@@ -113,7 +113,7 @@
     </div>
   </section>
 
-  <!-----footer----->
+  <!--footer-->
   <footer>
     <p>
       Ohiomata BN
@@ -121,9 +121,7 @@
       &copy; 2024
     </p>
   </footer>
-
-  <body>
-    <!-------JavaScript for toggle menu---->
+    <!--JavaScript for toggle menu-->
     <script>
       var navLinks = document.getElementById("navLinks");
       function showMenu() {
