@@ -197,12 +197,11 @@ footer p{
     .nav-links{
         position: absolute;
         background-color: #f44336;
-        width: 80%;
+        width: 100%;
         top: 0;
         text-align: left;
         z-index: 2;
         transition: 1s;
-        border-radius: 0 0 110px 0;
     }
 
     nav .fa{
@@ -212,6 +211,32 @@ footer p{
         font-size: 3em;
         cursor: pointer;
     }
+
+    nav{
+        padding: 0;
+    }
+}
+
+
+/*-------skills--------*/
+.skills .container h2{
+    font-size: 15vmin;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.skills .container h2::after{
+    content: '';
+    width: 25%;
+    height: 5px;
+    background: #f44336;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (max-width:700px){
