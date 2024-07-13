@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto sans', serif;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -176,6 +183,7 @@ p.dev-2{
 
 footer{
     background-color:#f44336;
+    margin-top: 20px;
 }
 
 footer p{
