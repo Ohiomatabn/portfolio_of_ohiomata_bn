@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="descripton" content="ohiomatabn portfolio" />
+    <meta
+      name="keywords"
+      content="ohiomata, bn, ohiomatabn, nathaniel, benjamin"
+    />
+    <meta name="robot" content="index,search" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/brands.min.css" />
+    <link rel="stylesheet" href="../css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../IMAGES/icon.jpg" type="image/x-icon" />
+    <title>ohiomatabn.com | skills</title>
+  </head>
+
+  <section class="header">
+    <nav>
+      <a href="index.html" class="logo">Ohiomata BN</a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="project.html">PROJECT</a></li>
+          <li><a href="skills.html">SKILLS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </section>
+
+  <!-----skills----->
+  <section class="skills">
+    <div class="container">
+      <h2>My Boostrap Skill</h2>
+      <div class="row-3">
+        <div class="skills-2">
+          <i class="fa-brands fa-bootstrap"></i>
+          <h5>BOOSTRAP</h5>
+          <p>
+            I am currently learning Bootstrap, a popular front-end framework
+            that enhances my ability to develop responsive and visually
+            appealing websites efficiently. Bootstrap provides a comprehensive
+            set of pre-built components, such as grids, buttons, forms, and
+            navigation bars, which streamline the design and development
+            process. By mastering Bootstrap's responsive utilities and
+            customizable CSS classes, I aim to create consistent and
+            mobile-friendly layouts across different devices. This learning
+            journey enables me to leverage Bootstrap's extensive documentation
+            and community support to enhance my skills in building modern and
+            user-centric web interfaces that meet industry standards and client
+            expectations effectively.
+          </p>
+
+          <p style="text-align: center">
+            <a href="skills.html" class="btn">Back to Skills</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----footer----->
+  <footer>
+    <p>
+      Ohiomata BN
+      <!--Copyright-->
+      &copy; 2024
+    </p>
+  </footer>
+
+  <body>
+    <!-------JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.top = "0";
+      }
+      function hideMenu() {
+        navLinks.style.top = "-70%";
+      }
+    </script>
+  </body>
+</html>
