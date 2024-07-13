@@ -185,6 +185,77 @@ footer p{
   padding: 50px;
 }
 
+
+
+
+
+/*-------skills--------*/
+.skills .container h2{
+    font-size: 15vmin;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.skills .container h2::after{
+    content: '';
+    width: 25%;
+    height: 5px;
+    background: #f44336;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*-------form------*/
+form{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.email, .name, .message{
+    width: 50%;
+}
+
+#email, #name, #message{
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f44336;
+    outline: none;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#message{
+    height: 150px;
+}
+
+input.btnn{
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #f44336;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+}
+
 @media(max-width:800px){
     .nav-links ul li{
         display: block;
@@ -192,6 +263,11 @@ footer p{
 
     .nav-links ul li a{
         color: #fff;
+    }
+
+    .nav-links ul li a:hover, .nav-links ul li a:focus{
+        color: #563434;
+        font-weight: 700;
     }
 
     .nav-links{
@@ -215,28 +291,11 @@ footer p{
     nav{
         padding: 0;
     }
-}
 
-
-/*-------skills--------*/
-.skills .container h2{
-    font-size: 15vmin;
-    margin: 10px;
-    text-align: center;
-    position: relative;
-    padding-bottom: 20px;
-}
-
-.skills .container h2::after{
-    content: '';
-    width: 25%;
-    height: 5px;
-    background: #f44336;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    .email, .name, .message{
+        width: 100%;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width:700px){
