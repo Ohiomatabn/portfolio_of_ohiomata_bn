@@ -145,6 +145,7 @@ p.dev-2{
 
 .contact{
     background-color: #563434;
+    padding: 40px 0;
 }
 
 .contact h4{
@@ -159,7 +160,7 @@ p.dev-2{
 }
 
 .contact p a{
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
     color: #fff;
     display: flex;
@@ -172,7 +173,7 @@ p.dev-2{
 }
 
 .contact p a i{
-    font-size: 3em;
+    font-size: 1em;
     padding-right: 20px;
     transition: .5s;
 }
@@ -191,6 +192,10 @@ footer p{
   text-align: center;
   font-size: 25px;
   padding: 50px;
+}
+
+.skills-2 i{
+    color: #f44336;
 }
 
 
