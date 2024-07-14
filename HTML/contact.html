@@ -54,13 +54,23 @@
             placeholder="Your Name"
           /><br />
         </div>
+        <div class="name">
+          <label for="name">Email:</label><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name" required
+          /><br />
+        </div>
+        </div>
         <div class="email">
           <label for="email">Email:</label><br />
           <input
             type="email"
             name="email"
             id="email"
-            placeholder="Your Email"
+            placeholder="Email" required
           /><br />
         </div>
         <div class="message">
@@ -68,10 +78,10 @@
           <textarea
             name="message"
             id="message"
-            placeholder="Your Message"
+            placeholder="Message" required
           ></textarea
           ><br />
-          <input type="submit" value="Send" class="btnn" />
+          <input type="submit" value="Send" class="btnn" required/>
         </div>
       </form>
     </div>
