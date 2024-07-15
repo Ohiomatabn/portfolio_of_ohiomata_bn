@@ -34,6 +34,10 @@ nav{
     color: rgb(255, 82, 59);
 }
 
+.active{
+    font-weight: 700;
+}
+
 nav .fa{
     display: none;
 }
@@ -59,16 +63,17 @@ nav .fa{
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
+    gap: 40px;
 }
 
 .col{
-    flex-basis: 50%;
+    flex-basis: 70%;
     min-width: 200px;
 }
 
 .col img{
     max-width: 100%;
-    height: auto;
+    height: 100%;
     margin-bottom: 50px;
 }
 
@@ -77,23 +82,32 @@ nav .fa{
     object-fit: cover;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     margin-top: 40px;
+    border: 20px solid #563434;
+}
+
+.immg{
+    flex-basis: 30%;
 }
 
 .immg img{
-    width: 80%;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(#fff, #f44336);
     box-shadow: 5px 5px 5px #fff;
     border-radius: 50%;
     margin-top: 50px;
+    border: 21px solid #ca9494;
 }
 
 .card{
     margin-top: 40px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    margin-right: 40px;
     padding-right: -40px;
+    flex-basis: 30%;
 }
 
+.card img{
+    border: 10px solid #f44336;
+}
 
 .btn{
     text-decoration: none;
