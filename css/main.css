@@ -142,6 +142,19 @@ p.dev-2{
     gap: 50px;
 }
 
+.conclusion h2{
+    font-size: 30px;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.conclusion p{
+    color: #fff;
+    font-size: 23px;
+    padding: 20px 0 40px 0;
+}
+
 
 .skills-2{
     background: linear-gradient(#ca9494, #ffd6d6);
