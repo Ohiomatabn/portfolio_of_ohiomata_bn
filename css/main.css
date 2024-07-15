@@ -76,6 +76,7 @@ nav .fa{
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
 }
 
 .immg img{
