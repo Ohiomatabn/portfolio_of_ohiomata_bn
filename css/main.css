@@ -67,8 +67,31 @@ nav .fa{
 
 .col img{
     max-width: 100%;
-    padding-bottom: 50px;
+    height: auto;
+    margin-bottom: 50px;
 }
+
+.img img{
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.immg img{
+    width: 80%;
+    background: linear-gradient(#fff, #f44336);
+    box-shadow: 5px 5px 5px #fff;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.card{
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 40px;
+    padding-right: -40px;
+}
+
 
 .btn{
     text-decoration: none;
