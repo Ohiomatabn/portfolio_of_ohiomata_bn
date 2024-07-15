@@ -201,7 +201,7 @@ p.dev-2{
 }
 
 .contact h4{
-    font-size: 5vmin;
+    font-size: 30px;
     color: white;
     text-align: center;
     padding: 30px;
@@ -243,7 +243,7 @@ footer p{
   color: #fff;
   text-align: center;
   font-size: 25px;
-  padding: 50px;
+  padding: 30px 0px;
 }
 
 .skills-2 i{
