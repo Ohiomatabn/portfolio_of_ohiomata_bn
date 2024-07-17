@@ -3,5 +3,4 @@
 <p>This repo features: <br>
 the about <br>
 the skills <br>
-the previous project<br>
 and where contact or reach <b>Ohiomata BN</b></p>
