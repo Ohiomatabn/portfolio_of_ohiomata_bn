@@ -59,6 +59,13 @@ nav .fa{
     margin: auto;
 }
 
+.hero .row .slide-1{
+    animation: slideInFromLeft 1s ease-in;
+}
+.hero .row .slide-2{
+    animation: slideInFromRight 1s ease-in;
+}
+
 .header{
     background: linear-gradient(#fff, #ffd6d6);
     background: var(--primary-color);
@@ -310,6 +317,26 @@ input.btnn{
     cursor: pointer;
 }
 
+@keyframes slideInFromLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight{
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
 @media(max-width:800px){
     .nav-links ul li{
         display: block;
@@ -332,6 +359,7 @@ input.btnn{
         text-align: left;
         z-index: 2;
         transition: 1s;
+        overflow: hidden;
     }
 
     nav .fa{
